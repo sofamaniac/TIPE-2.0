@@ -45,7 +45,7 @@ def calcul_acc(f, dt):
 		f[acceleration] += poussee
 
 	rho = calcul_rho(f[pos])
-	Cx = 5
+	Cx = 1
 	R = 1 / 2 * Cx * rho
 	
 	a = 100
